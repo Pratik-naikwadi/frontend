@@ -1,0 +1,27 @@
+.cartContainer{
+    height: auto;
+    width: 800px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    text-align: center;
+    
+
+}
+.productImgHolder{
+    width: 715px;
+    height: 150px;
+    background-color: rgb(29, 192, 29);
+    border-radius: 8px;
+    margin: 30px 40px;
+    display: flex;
+}
+.productImg{
+    height: 140px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 8px;
+}

@@ -1,0 +1,49 @@
+*{
+    color: white;
+    font-size: 18px;
+}
+.footer-container{
+    background-color: rgb(48, 48, 48);
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconContainer{
+    display: flex;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.termsAndPrivacy{
+    display: flex;
+    justify-content: space-evenly;
+}
+.emailAndCc{
+    text-align: center;
+}
+.footer-item{
+    margin: 10px;
+    cursor: pointer;
+}
+.footer-item:hover{
+    filter: invert(60%);
+}
+.footerLogo{
+    height: 50px;
+    width: 50px;
+}
+.icon:hover{
+    filter: invert(20%);
+}
+a{
+    text-decoration: none;
+}

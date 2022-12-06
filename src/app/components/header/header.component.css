@@ -1,0 +1,83 @@
+*{
+    color: white;
+}
+.navbar-container{
+    height: 75px;
+    background-color: rgb(48, 48, 48);
+}
+.navbar-options{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-option:hover{
+     color: rgb(29, 192, 29);
+}
+.left{
+    flex: 1;
+    align-items: center;
+}
+.center{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.language{
+    font-size: 16px;
+    cursor: pointer;
+}
+.searchIcon{
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
+    cursor: pointer;
+}
+.searchContainer{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid lightgrey;
+    margin-left: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.searchBox{
+    border: none;
+    width: 40rem;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 13px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(29, 192, 29);
+}
+.cartIcon{
+    height: 45px;
+    width: 60px;
+    filter: invert(1);
+}
+.menuItem{
+    cursor: pointer;
+    margin-left: 25px;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+input{
+    color: black;
+    font-size: 20px;
+}
+.language{
+    font-size: 20px;
+}

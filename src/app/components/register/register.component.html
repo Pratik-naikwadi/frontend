@@ -1,0 +1,32 @@
+<form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)">
+    <div class="container">
+        <div class="card">
+            <h1>Register seller...!!</h1>
+            <div>
+                <label for="name">Full name:</label>
+            </div>
+            <div>
+            <input class="inputBox" type="text" id="name" placeholder="Enter your full name"name="name" ngModel/>
+        </div>
+            <div>
+                <label for="email">Email:</label>
+            </div>
+            <div>
+            <input class="inputBox" type="text" id="email" placeholder="Enter your email" name="email" ngModel/>
+        </div>
+        <div>
+            <label for="password">password:</label>
+        </div>
+        <div>
+            <input name="password" class="inputBox" type="password" id="password" placeholder="enter your password" ngModel/>
+        </div>
+        <div>
+            <label for="cpassword">confirm password:</label>
+        </div>
+        <div>
+            <input class="inputBox" type="password" id="cpassword" placeholder="confirm your password" ngModel/>
+        </div>
+        <button class="submitButton" type="submit">Sign in</button>
+    </div>
+</div>
+</form>

@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adImage{
+height: 550px;
+width: 100%;
+mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+z-index: 0;
+}
+.offer{
+    text-align: center;
+    border-radius: 13px;
+    border: 2px solid black;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -250px;
+    margin-bottom: 10px;
+}
+.offer:hover{
+    background-color: lightgrey;
+}
+.tagline{
+    font-size: 34px;
+    text-align: center;
+}
+.btn{
+    height: 50px;
+    width: 350px;
+    background-color: grey;
+    border-radius: 10px ;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:  rgb(29, 192, 29);;
+}

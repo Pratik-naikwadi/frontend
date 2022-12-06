@@ -1,0 +1,25 @@
+<app-slider></app-slider>
+<div class="container">
+    <div class="categories" *ngFor="let category of categories">
+        <app-categories
+        [image]="category.image"
+        [productName]="category.name"
+        [rating]="category.rating"
+        [price]="category.price"
+        [deliveryCharge]="category.deliveryCharge"
+        ></app-categories>
+    </div>
+</div>
+
+<h1>products starts here</h1>
+<div class="container">
+    <div  *ngFor="let product of products">
+        <app-product
+        [image]="product.image"
+        [productName]="product.name"
+        [rating]="product.rating"
+        [price]="product.price"
+        [deliveryCharge]="product.deliveryCharge"
+        ></app-product>
+        
+    </div>

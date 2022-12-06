@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:10px;
+}
